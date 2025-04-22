@@ -56,6 +56,7 @@ public class Brisca implements Jugable{
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'comprobarGanador'");
     }
+    
 
     public boolean ganadorMano(Naipe naipeA, Naipe naipeB, boolean quienEmpezo) {
         if (naipeA.getPuntuacion() > naipeB.getPuntuacion()) {

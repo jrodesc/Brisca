@@ -40,7 +40,7 @@ public class ES {
 
         try {
             f  = new File("datos");
-            PrintWriter pw = new PrintWriter(new FileWriter(f+".txt"));
+            PrintWriter pw = new PrintWriter(new FileWriter(f+".txt", true));
             pw.write(texto);
             pw.close();
         } catch (IOException e) {

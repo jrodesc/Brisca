@@ -1,7 +1,7 @@
 package Vistas;
 
 
-import EstructuraDatos.Jugador;
+
 import EstructuraDatos.JugadorHumano;
 import EstructuraDatos.Naipe;
 import Utildiades.ES;
